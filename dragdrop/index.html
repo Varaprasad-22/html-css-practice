@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Drag Drop Project</h1>
+
+      <div class="board">
+        <div class="list" id="list1">
+          <h2>To Do</h2>
+          <div class="card" draggable="true" id="card1">Task1</div>
+          <div class="card" draggable="true" id="card2">Task2</div>
+        </div>
+        <div class="list" id="list2">
+          <h2>In Progress</h2>
+          <div class="card" draggable="true" id="card3">Task3</div>
+        </div>
+        <div class="list" id="list3">
+          <h2>Done</h2>
+           <div class="card" draggable="false" id="card4">Task4</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
